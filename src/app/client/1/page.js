@@ -7,8 +7,8 @@ export default function ClientComponent() {
 
     return (
         <div>
-            <p>Client Count: {count}< /p>
-            <button onClick={() => setCount(count + 1)}>Increment< /button>
+            <p>Client Count: {count}</p>
+            <button onClick={() => setCount(count + 1)}>Increment</button>
         </div>
     );
 }
