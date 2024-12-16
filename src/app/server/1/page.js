@@ -1,5 +1,3 @@
-export const dynamic = 'force-dynamic'
-
 export default async function ServerComponent() {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts');
     const posts = await res.json();
