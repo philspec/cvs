@@ -1,7 +1,8 @@
 export default async function ServerComponent() {
+    console.log("Server component rendered");
     return (
         <div>
-           server
+           This is a server component. Data fetching is handled in the client component.
         </div>
     );
 }
